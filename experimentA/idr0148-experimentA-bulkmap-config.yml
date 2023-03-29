@@ -1,0 +1,56 @@
+---
+name: idr0148-schumacher-kidneytem/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Embryo/Fetus ID]
+    clientname: Embryo/Fetus ID
+    include: yes
+
+  - name: Characteristics [Developmental Stage]
+    clientname: Developmental Stage
+    include: yes
+
+  - name: Characteristics [Ethnicity]
+    clientname: Ethnicity
+    include: yes
+
+  - name: Assay Name
+    clientname: Assay Name
+    include: yes
+
+  - name: Comment [Source Image]
+    clientname: Source Image
+    include: yes
+
+  - name: Comment [Corresponding TEM ROIs]
+    clientname: Corresponding TEM ROIs
+    include: yes
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
