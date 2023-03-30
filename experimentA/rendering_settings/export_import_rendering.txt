@@ -1,0 +1,23 @@
+Export from pilot-idr0148
+=========================
+python /uod/idr/metadata/idr-utils/scripts/annotate/find_images.py -n ".*" Project:2701 >> images.txt
+
+cat images.txt | while read -a tmp line; do omero render info --style yaml ${tmp[1]} >> ${tmp[0]}.yml; done
+
+
+
+Import into idr-next
+====================
+
+IFS=$(echo -en "\n\b")
+for f in *.yml
+do
+	imgname=${f%.*}
+
+	echo "Set rendering settings for $imgname"
+	
+	imgid=`$omero hql --style csv -q "select img.id from Image img where img.name = '$imgname'"`
+	imgid=${imgid##*,}
+	
+	$omero render set Image:$imgid $f
+done
