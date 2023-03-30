@@ -11,6 +11,10 @@ defaults:
 
 columns:
 
+  - name: Characteristics [Organism Part]
+    clientname: Organism Part
+    include: yes
+
   - name: Characteristics [Embryo\Fetus ID]
     clientname: Embryo/Fetus ID
     include: yes
