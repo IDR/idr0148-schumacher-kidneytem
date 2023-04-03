@@ -1,0 +1,125 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.																																	
+																																	
+# STUDY DESCRIPTION SECTION																																	
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details																																	
+																																	
+Comment[IDR Study Accession]	idr0148																																
+Study Title	Ultrastructure of first trimester human fetal kidneys																															
+Study Type	electron microscopy volume map																																
+Study Type Term Source REF	EFO																																
+Study Type Term Accession																																	
+Study Description	Research on the ultrastructural development of the kidney is limited, and research on rodent kidneys prevails. Yet, large differences between rodent and human nephrogenesis exist and therefore translation between species is not desirable. At the same time, there is an increasing demand for human research, in addition to assessing the potential of novel therapies such as renal organoids. We therefore generated an interactive atlas of large transmission electron microscopy tile scans of first trimester human kidneys, specifically Carnegie stage 20 until post-conceptional week 12. Analysis identified key ultrastructural features of proximal and distal progenitor cells such as cell shape, microvilli and luminal budding in the renal vesicle. Regarding glomerular development, we identified a new W-shaped body stage and three distinct sub-stages of the well-known capillary loop stage. Chromatin organization, nuclear shape and location were used to describe tubule cell identity and maturity, indicating a specific order of tubular maturation. The greatest congruence with adult tissue was seen in proximal tubules and the least in distal tubules. Finally, cytoplasmic glycogen depositions in collecting duct cells, which are absent in adult tissue, were found to be an early feature distinguishing distal tubules from collecting ducts as well as differentiating cortical from medullary collecting ducts. The findings of this research provide new fundamental insights for researchers who aim to understand and recreate kidney development. 
+																	
+Study Key Words	Nephrogenesis	Human kidney development	Transmission electron microscopy	FIB-SEM	Capillary loop stage	Ultrastructure																												
+Study Organism	Homo sapiens																														
+Study Organism Term Source REF	NCBITaxon																															
+Study Organism Term Accession	9606																																
+Study Experiments Number	1																		
+Study External URL			
+Study BioImage Archive Accession																														
+Study Public Release Date	2023-04-05																																	
+																																	
+# Study Publication																																	
+Study PubMed ID																																	
+Study Publication Title	Structural development of the human fetal kidney: new stages and cellular dynamics in nephrogenesis 																																
+Study Author List	Schumacher A, Nguyen TQ, Broekhuizen R, van Griensven M, LaPointe V																																
+Study PMC ID																																	
+Study DOI																																	
+																																	
+# Study Contacts																																	
+Study Person Last Name	Schumacher																																
+Study Person First Name	Anika																																
+Study Person Email	anika.schumacher@gmail.com																																
+Study Person Address	Universiteitssingel 40, Maastricht, The Netherlands																																
+Study Person ORCID	0000-0001-7790-2756																																
+Study Person Roles	submitter and first author																																
+																																	
+# Study License and Data DOI																																	
+Study License	CC BY 4.0 																																
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	Schumacher et al																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																	
+																																	
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																													
+																																	
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																																	
+																																	
+Experiment Number	1																												
+Comment[IDR Experiment Name]	idr0148-schumacher-kidneytem/experimentA
+Experiment Sample Type	tissue																																
+Experiment Description	Development of human fetal kidneys of first trimester were assessed using large transmission electron microscopy tilescans. 																														
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT):	Total Tb: 																														
+Experiment Example Images																															
+Experiment Imaging Method	transmission electron microscopy (TEM)	bright-field microscopy 																															
+Experiment Imaging Method Term Source REF	Fbbi	Fbbi																															
+Experiment Imaging Method Term Accession	FBbi_00000258	FBbi_00000243																																
+Experiment Organism																														
+Experiment Organism Term Source REF	NCBITaxon																																
+Experiment Organism Term Accession																																
+Experiment Comments																																	
+																																	
+# assay files																																	
+Experiment Assay File	idr0148-experimentA-annotation																																
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions																											
+Assay Experimental Conditions Term Source REF																																
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description	Health of tissues was assessed using histological slides by two independent nephropathologists at the beginning of the study.																															
+																																	
+# Protocols
+Protocol Name	Light microscopy of stained paraffin sections																												
+Protocol Type	image acquisition 																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession																																
+Protocol Description	Sections of 3 μm thickness were cut from the paraffin embedded kidneys and were stained with Periodic acid-Schiff (PAS).
+The sections were imaged using a 10× air objective on an automated Nikon Eclipse Ti-E. 
+The sections were used to assess te health of all tissues by two independent nephropathologists at the beginning of the study.	
+
+Protocol Name	Light microscopy of stained semithin sections																												
+Protocol Type	image acquisition 																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession																																
+Protocol Description	Sections of 1 μm thickness (semithin) were cut from the Epon embedded kidneys and stained with toluidine blue.
+The sections were imaged using a 20× air objective on an automated Nikon Eclipse Ti-E. 
+In these images the regions of interest (ROIs) were determined for transmission electron microscopy imaging and analysis.
+																																	
+Protocol Name	TEM image acquisition and processing																												
+Protocol Type	image acquisition and feature extraction protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession																																
+Protocol Description	The region of interest (ROI) was determined in toluidine blue stained 1 μm sections of the Epon embedded kidneys. 
+Ultrathin sections of 60 nm were then cut of the determined ROI on a Leica UC7 ultramicrotome and stained with 2% uranyl acetate and Reynold’s lead citrate. 
+The ultrathin sections were observed on a Tecnai T12 electron microscope equipped with an Eagle 4k × 4k CCD camera (Thermo Fisher Scientific). 
+To target the ROI, full-section scans were made using the EPU software (1.6.0.1340REL, FEI). 
+Subsequently, the ROI (determined earlier in the toluidine blue stained sections) was imaged in tiles at 2900× magnification using the EM Mesh software (version 6). 
+Data were stitched, uploaded and annotated for the analysis using Omero and PathViewer. 																														
+																																	
+# Phenotypes																																
+Phenotype Name																																	
+Phenotype Description																																	
+Phenotype Score Type																																	
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																
+Phenotype Term Accession			 																														
+																																	
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well) 																																
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																
+Feature Level Data Column Name	
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files																																		
+Processed Data File Name																																
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																																	
+Processed Data Column Type																																	
+Processed Data Column Annotation Level																																
+Processed Data Column Description																													
+Processed Data Column Link To Assay File																																	
